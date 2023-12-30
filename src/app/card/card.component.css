@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+  }
+
+  .header {
+    display: inline;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    color: #666;
+    padding-top: 10px;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .body {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    color: #888;
+  }
+
+  .with-footer {
+    border-bottom: 1px solid #ddd;
+  }

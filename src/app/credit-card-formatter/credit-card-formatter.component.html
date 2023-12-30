@@ -1,0 +1,9 @@
+<div class="credit-card">
+    <div class="card-content">
+        <input type="text" name="card" [(ngModel)]="cardNumber" 
+        
+       [value]="cardNumber | hyphenate" #card="ngModel" ngModel minlength="19" maxlength="19">
+        <div class="error" *ngIf="card.dirty && card.invalid">Invalid input</div>
+    </div> 
+   
+</div>

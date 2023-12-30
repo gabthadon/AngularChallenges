@@ -1,0 +1,26 @@
+.credit-card{
+    border: 1px solid #b1b1b1;
+    max-width: 300px;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+   justify-content: center; 
+   align-items: center;
+   background-color: #080658;
+}
+
+.card-content{
+    display: inline;
+
+}
+
+.error{
+    color: rgb(236, 8, 8);
+}
+
+input{
+    border-color: #b1b1b1;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 20px;
+}
